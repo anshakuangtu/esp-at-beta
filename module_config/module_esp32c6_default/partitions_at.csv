@@ -1,4 +1,4 @@
-# Name,       Type, SubType, Offset,    Size,     Flags
+# Name,       Type, SubType, Offset,    Size,
 nvs,          data, nvs,     0x9000,     0x6000,
 phy_init,     data, phy,     0xf000,     0x1000,
 at_data,      data, 0x83,    0x1e000,    0x2000,
