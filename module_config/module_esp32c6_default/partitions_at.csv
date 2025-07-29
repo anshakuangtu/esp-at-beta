@@ -1,8 +1,8 @@
-# Name,       Type, SubType, Offset,    Size,
-nvs,          data, nvs,     0x9000,     0x6000,
-phy_init,     data, phy,     0xf000,     0x1000,
-at_data,      data, 0x83,    0x1e000,    0x2000,
-factory,      app,  factory, 0x20000,    0x400000,
-ota_0,        app,  ota_0,   0x420000,   0x400000,
-ota_1,        app,  ota_1,   0x820000,   0x400000,
-storage,      data, fat,     0xc20000,   0x2E0000,
+# Name,       Type, SubType, Offset,    Size
+nvs,          data, nvs,     0x9000,     0x6000
+phy_init,     data, phy,     0xf000,     0x1000
+at_data,      data, 0x83,    0x1e000,    0x2000
+factory,      app,  factory, 0x20000,    0x400000
+ota_0,        app,  ota_0,   0x420000,   0x400000
+ota_1,        app,  ota_1,   0x820000,   0x400000
+storage,      data, fat,     0xc20000,   0x2E0000
